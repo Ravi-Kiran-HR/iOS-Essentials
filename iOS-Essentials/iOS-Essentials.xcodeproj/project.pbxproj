@@ -19,6 +19,8 @@
 		1C5F858327B94AFA00599544 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F858227B94AFA00599544 /* Singleton.swift */; };
 		1C5F858C27B94B8800599544 /* APIClient-Singleton-Step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */; };
 		1C5F859127B94C8F00599544 /* APIClient-Singleton-Step1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F859027B94C8F00599544 /* APIClient-Singleton-Step1.swift */; };
+		1C5F859627B94D1C00599544 /* APIClient-Singleton-Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F859527B94D1C00599544 /* APIClient-Singleton-Step2.swift */; };
+		1C5F859B27B94D6A00599544 /* APIClient-Singleton-Step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		1C5F858227B94AFA00599544 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APIClient-Singleton-Step1.png"; sourceTree = "<group>"; };
 		1C5F859027B94C8F00599544 /* APIClient-Singleton-Step1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient-Singleton-Step1.swift"; sourceTree = "<group>"; };
+		1C5F859527B94D1C00599544 /* APIClient-Singleton-Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient-Singleton-Step2.swift"; sourceTree = "<group>"; };
+		1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APIClient-Singleton-Step2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 				1C5F858A27B94B4100599544 /* DependecyDiagrams */,
 				1C5F858227B94AFA00599544 /* Singleton.swift */,
 				1C5F859027B94C8F00599544 /* APIClient-Singleton-Step1.swift */,
+				1C5F859527B94D1C00599544 /* APIClient-Singleton-Step2.swift */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */,
+				1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */,
 			);
 			path = DependecyDiagrams;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C5F855B27B94A2C00599544 /* LaunchScreen.storyboard in Resources */,
+				1C5F859B27B94D6A00599544 /* APIClient-Singleton-Step2.png in Resources */,
 				1C5F855827B94A2C00599544 /* Assets.xcassets in Resources */,
 				1C5F855327B94A2300599544 /* Main.storyboard in Resources */,
 				1C5F858C27B94B8800599544 /* APIClient-Singleton-Step1.png in Resources */,
@@ -291,6 +298,7 @@
 				1C5F855027B94A2300599544 /* ViewController.swift in Sources */,
 				1C5F854C27B94A2300599544 /* AppDelegate.swift in Sources */,
 				1C5F859127B94C8F00599544 /* APIClient-Singleton-Step1.swift in Sources */,
+				1C5F859627B94D1C00599544 /* APIClient-Singleton-Step2.swift in Sources */,
 				1C5F858327B94AFA00599544 /* Singleton.swift in Sources */,
 				1C5F854E27B94A2300599544 /* SceneDelegate.swift in Sources */,
 			);
