@@ -7,6 +7,7 @@
 
 import UIKit
 
+// Refer Singleton/DependecyDiagrams/APIClient-Singleton-Step3 dependency diagram.png
 class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()

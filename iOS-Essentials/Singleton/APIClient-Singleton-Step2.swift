@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Refer Sources/Singleton step 2 dependency diagram.png
+// Refer Singleton/DependecyDiagrams/APIClient-Singleton-Step2 diagram.png
 
 // API Client Module
 class ApiClient1 {

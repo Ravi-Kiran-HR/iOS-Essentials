@@ -7,7 +7,7 @@
 
 import UIKit
 
-// Refer Sources/Singleton step 1 dependency diagram.png
+// Refer Singleton/DependecyDiagrams/APIClient-Singleton-Step1 dependency diagram.png
 struct LoginUser {}
 struct  Feed {}
 
