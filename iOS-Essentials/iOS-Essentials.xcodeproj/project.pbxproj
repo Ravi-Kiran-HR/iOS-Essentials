@@ -16,6 +16,8 @@
 		1C5F855B27B94A2C00599544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F855927B94A2C00599544 /* LaunchScreen.storyboard */; };
 		1C5F856627B94A2C00599544 /* iOS_EssentialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F856527B94A2C00599544 /* iOS_EssentialsTests.swift */; };
 		1C5F857127B94A2C00599544 /* iOS_EssentialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F857027B94A2C00599544 /* iOS_EssentialsUITests.swift */; };
+		1C5F858327B94AFA00599544 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F858227B94AFA00599544 /* Singleton.swift */; };
+		1C5F858C27B94B8800599544 /* APIClient-Singleton-Step1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1C5F856C27B94A2C00599544 /* iOS-EssentialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-EssentialsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5F857027B94A2C00599544 /* iOS_EssentialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_EssentialsUITests.swift; sourceTree = "<group>"; };
 		1C5F857227B94A2C00599544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5F858227B94AFA00599544 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APIClient-Singleton-Step1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		1C5F853F27B94A2300599544 = {
 			isa = PBXGroup;
 			children = (
+				1C5F858127B94AD500599544 /* Singleton */,
 				1C5F854A27B94A2300599544 /* iOS-Essentials */,
 				1C5F856427B94A2C00599544 /* iOS-EssentialsTests */,
 				1C5F856F27B94A2C00599544 /* iOS-EssentialsUITests */,
@@ -129,6 +134,23 @@
 				1C5F857227B94A2C00599544 /* Info.plist */,
 			);
 			path = "iOS-EssentialsUITests";
+			sourceTree = "<group>";
+		};
+		1C5F858127B94AD500599544 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F858A27B94B4100599544 /* DependecyDiagrams */,
+				1C5F858227B94AFA00599544 /* Singleton.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		1C5F858A27B94B4100599544 /* DependecyDiagrams */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */,
+			);
+			path = DependecyDiagrams;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +259,7 @@
 				1C5F855B27B94A2C00599544 /* LaunchScreen.storyboard in Resources */,
 				1C5F855827B94A2C00599544 /* Assets.xcassets in Resources */,
 				1C5F855327B94A2300599544 /* Main.storyboard in Resources */,
+				1C5F858C27B94B8800599544 /* APIClient-Singleton-Step1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +287,7 @@
 				1C5F855627B94A2300599544 /* iOS_Essentials.xcdatamodeld in Sources */,
 				1C5F855027B94A2300599544 /* ViewController.swift in Sources */,
 				1C5F854C27B94A2300599544 /* AppDelegate.swift in Sources */,
+				1C5F858327B94AFA00599544 /* Singleton.swift in Sources */,
 				1C5F854E27B94A2300599544 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
