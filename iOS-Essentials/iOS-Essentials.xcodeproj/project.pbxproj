@@ -23,6 +23,9 @@
 		1C5F859B27B94D6A00599544 /* APIClient-Singleton-Step2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */; };
 		1C5F85A027B94DBE00599544 /* APIClient-Singleton-Step3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F859F27B94DBE00599544 /* APIClient-Singleton-Step3.png */; };
 		1C5F85A527B94DD100599544 /* APIClient-Singleton-Step3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F85A427B94DD100599544 /* APIClient-Singleton-Step3.swift */; };
+		1C5F85AB27BA24F200599544 /* Composition_Phase1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F85AA27BA24F100599544 /* Composition_Phase1.swift */; };
+		1C5F85B027BA258200599544 /* Composition_Phase2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5F85AF27BA258200599544 /* Composition_Phase2.swift */; };
+		1C5F85B627BA270A00599544 /* Composition_Phase2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C5F85B527BA270900599544 /* Composition_Phase2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +68,9 @@
 		1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APIClient-Singleton-Step2.png"; sourceTree = "<group>"; };
 		1C5F859F27B94DBE00599544 /* APIClient-Singleton-Step3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "APIClient-Singleton-Step3.png"; sourceTree = "<group>"; };
 		1C5F85A427B94DD100599544 /* APIClient-Singleton-Step3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient-Singleton-Step3.swift"; sourceTree = "<group>"; };
+		1C5F85AA27BA24F100599544 /* Composition_Phase1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composition_Phase1.swift; sourceTree = "<group>"; };
+		1C5F85AF27BA258200599544 /* Composition_Phase2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composition_Phase2.swift; sourceTree = "<group>"; };
+		1C5F85B527BA270900599544 /* Composition_Phase2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Composition_Phase2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				1C5F858127B94AD500599544 /* Singleton */,
+				1C5F85A927BA24E300599544 /* Composition */,
 				1C5F854A27B94A2300599544 /* iOS-Essentials */,
 				1C5F856427B94A2C00599544 /* iOS-EssentialsTests */,
 				1C5F856F27B94A2C00599544 /* iOS-EssentialsUITests */,
@@ -149,7 +156,7 @@
 		1C5F858127B94AD500599544 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				1C5F858A27B94B4100599544 /* DependecyDiagrams */,
+				1C5F858A27B94B4100599544 /* UML -DependecyDiagrams */,
 				1C5F858227B94AFA00599544 /* Singleton.swift */,
 				1C5F859027B94C8F00599544 /* APIClient-Singleton-Step1.swift */,
 				1C5F859527B94D1C00599544 /* APIClient-Singleton-Step2.swift */,
@@ -158,14 +165,32 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
-		1C5F858A27B94B4100599544 /* DependecyDiagrams */ = {
+		1C5F858A27B94B4100599544 /* UML -DependecyDiagrams */ = {
 			isa = PBXGroup;
 			children = (
 				1C5F858B27B94B8800599544 /* APIClient-Singleton-Step1.png */,
 				1C5F859A27B94D6A00599544 /* APIClient-Singleton-Step2.png */,
 				1C5F859F27B94DBE00599544 /* APIClient-Singleton-Step3.png */,
 			);
-			path = DependecyDiagrams;
+			path = "UML -DependecyDiagrams";
+			sourceTree = "<group>";
+		};
+		1C5F85A927BA24E300599544 /* Composition */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F85B427BA25C300599544 /* UML */,
+				1C5F85AA27BA24F100599544 /* Composition_Phase1.swift */,
+				1C5F85AF27BA258200599544 /* Composition_Phase2.swift */,
+			);
+			path = Composition;
+			sourceTree = "<group>";
+		};
+		1C5F85B427BA25C300599544 /* UML */ = {
+			isa = PBXGroup;
+			children = (
+				1C5F85B527BA270900599544 /* Composition_Phase2.png */,
+			);
+			path = UML;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,6 +302,7 @@
 				1C5F855327B94A2300599544 /* Main.storyboard in Resources */,
 				1C5F858C27B94B8800599544 /* APIClient-Singleton-Step1.png in Resources */,
 				1C5F85A027B94DBE00599544 /* APIClient-Singleton-Step3.png in Resources */,
+				1C5F85B627BA270A00599544 /* Composition_Phase2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +334,8 @@
 				1C5F859627B94D1C00599544 /* APIClient-Singleton-Step2.swift in Sources */,
 				1C5F858327B94AFA00599544 /* Singleton.swift in Sources */,
 				1C5F854E27B94A2300599544 /* SceneDelegate.swift in Sources */,
+				1C5F85B027BA258200599544 /* Composition_Phase2.swift in Sources */,
+				1C5F85AB27BA24F200599544 /* Composition_Phase1.swift in Sources */,
 				1C5F85A527B94DD100599544 /* APIClient-Singleton-Step3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
