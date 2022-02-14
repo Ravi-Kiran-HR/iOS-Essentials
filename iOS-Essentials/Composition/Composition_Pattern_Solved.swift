@@ -22,18 +22,6 @@ class FeedViewController3: UIViewController {
 }
 
 class RemoteLoaderWithFallbackLocalLoader: Loader1 {
-    func loadFeed(_ completion: @escaping ([String]) -> Void) {
-        if NetwrokReachability1.reachability {
-            self.remoteFeeder?.loadFeed { feeds in
-                // logic
-            }
-        } else {
-            self.localFeeder?.loadFeed { feeds in
-                // logic
-            }
-        }
-    }
-    
     var remoteFeeder: Loader1?
     var localFeeder: Loader1?
     
@@ -41,6 +29,23 @@ class RemoteLoaderWithFallbackLocalLoader: Loader1 {
         self.init()
         self.localFeeder = localFeeder
         self.remoteFeeder = remoteFeeder
+    }
+    
+    func loadFeed(_ completion: @escaping ([String]) -> Void) {
+        //        if NetwrokReachability1.reachability {
+        //            self.remoteFeeder?.loadFeed ({ feeds in
+        //                // logic
+        //            })
+        //        } else {
+        //            self.localFeeder?.loadFeed { feeds in
+        //                // logic
+        //            }
+        //        }
+        
+        ///////////////////////// (or) /////////////////////
+        
+        NetwrokReachability1.reachability ? self.remoteFeeder?.loadFeed(completion) : self.localFeeder?.loadFeed(completion)
+        
     }
 }
 
